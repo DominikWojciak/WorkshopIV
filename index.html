@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+<h2>Dodaj nową książkę</h2>
+<form method="post" id="addBook">
+    <label>Id</label><input type="number" id="id"><br>
+    <label>Tytuł</label><input type="text" id="title"><br>
+    <label>Autor</label><input type="text" id="author"><br>
+    <label>Wydawca</label><input type="text" id="publisher"><br>
+    <label>ISBN</label><input type="text" id="isbn"><br>
+    <label>Tematyka</label><input type="text" id="type"><br>
+    <input type="submit" id="submitButton" value="Dodaj"><br>
+</form>
+
+<h2>Lista książek</h2>
+<table border="2" id="booksList">
+    <thead>
+    <tr>
+        <td>Id</td>
+        <td>Tytuł</td>
+        <td>Autor</td>
+        <td>Czynności</td>
+    </tr>
+    </thead>
+
+</table>
+</body>
+</html>
